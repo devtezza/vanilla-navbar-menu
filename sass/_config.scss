@@ -59,6 +59,13 @@ button {
    outline: none;
    background: none;
    text-decoration: none;
+
+   // Media Query
+   @media only screen and (max-width: 768px) {
+      cursor: default !important;
+      border: none;
+      outline: none;
+   }
 }
 
 img,
