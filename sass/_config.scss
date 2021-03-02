@@ -75,18 +75,3 @@ video {
    height: auto;
    object-fit: cover;
 }
-
-// Section: Elements
-.container {
-   max-width: 80rem;
-   width: 100%;
-   height: auto;
-   padding: 0 2rem;
-   margin: 0 auto;
-
-   // Media Query
-   @media only screen and (max-width: 768px) {
-      padding: 0 1rem;
-      margin: 0 auto;
-   }
-}
